@@ -29,13 +29,12 @@ function App() {
         </li>
       </ul>
 
-      
-        <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/contact" element={<Contact />}></Route>
-          <Route exact path="/projects" element={<Projects />}></Route>
-        </Routes>
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/about" element={<About />}></Route>
+        <Route exact path="/contact" element={<Contact />}></Route>
+        <Route exact path="/projects" element={<Projects />}></Route>
+      </Routes>
     </div>
   );
 }
